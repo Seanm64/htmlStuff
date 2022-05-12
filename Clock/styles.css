@@ -4,7 +4,7 @@
 }
 
 body{
-    background:linear-gradient(to right, hsl(200, 100%, 50%), hsl(175,100%,50%));
+    background:linear-gradient(to right, rgb(0, 170, 255), hsl(175,100%,50%));
     display:flex;
     justify-content: center;
     align-items: center;
@@ -87,4 +87,16 @@ body{
     width: 10px;
     height: 35%;
     background-color: black;
+}
+
+.bottom-clock{
+    position:fixed;
+    bottom:-.5%;
+    right:-1.5%;
+    background-color: rgba(0, 170, 255, 0.4);
+    border-radius: 10%;
+    width: 125px;
+    height: 50px;
+    padding: 10px;
+    font-size:2rem;
 }
