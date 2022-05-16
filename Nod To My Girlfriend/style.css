@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+body { 
+    background-color: rgb(235, 234, 234);
+}
+
+header{
+    height: 100px;
+    background-color: pink;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.text-container {
+    width:500px;
+}
+
+.text {
+    color:pink;
+    font-size: 100px;
+    padding-top: 75px;
+    text-align: center;
+    margin: 20px;
+}
+
+.grid {
+    display:grid;
+    gap: 5px;
+    grid-template-columns: 7;
+    grid-template-rows: 2;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 1;
+}
+.item2{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-column-end: 2;
+}
+.item3{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-column-end: 3;
+}
+.item4{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: 3;
+}
+.item5{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-column-end: 3;
+}
+.item6{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-column-end: 4;
+}
+.item7{
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-column-end: 4;
+}
+
+.hotdog{
+    width:auto;
+    height:calc(128px * 2);
+}
+
+.hamburger{
+    height:auto;
+    width:calc(128px * 3.5);
+}
+
+footer{
+    margin-top:5px;
+    height: 50px;
+    background-color: pink;
+}
+
+.footing {
+    text-align: center;
+    padding-top: 10px;
+
+}
