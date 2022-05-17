@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+	color: #666;
+}
+
+body {
+	background-color: #536878;
+}
+
+input[type="text"],
+input[type="Password"],
+input[type="email"] {
+	padding: 5px;
+}
+
+.privacy a {
+	color:green;
+	text-decoration: none;
+}
+
+.privacy a:hover {
+	color:red;
+}
+
+.container {
+	padding: 20px;
+	margin: auto;
+	margin-top:50px;
+	background-color: lightgrey;
+	max-width: 375px;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 6px 10px 15px 0px rgba(0,0,0,0.45);
+	
+}
+
+.grid { 
+	margin-top: 10px;
+	display: grid;
+	gap: 15px;
+	grid-template-columns: repeat(2, auto);
+	grid-template-rows: repeat(3, 25px);
+ }
+
+
+.register {
+	margin:auto;
+}
+
+.item3 {
+	grid-column: 1 / 3;
+}
+
+.item4 {
+	grid-column: 1 / 3;
+}
+.item5 {
+	grid-column: 1 / 3;
+}
+
+/*.register:after {
+    content: '';
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+}*/
+
+
+.createText {
+	font-size: .9em;
+}
+
+
+.privacy {
+	margin-top: 10px; 
+	display:flex;
+	gap:10px;
+	font-size: .9em;
+}
+
+.privacy input[type="checkbox"] {
+	margin-top:1.5px;
+}
+
+.submit {
+	margin-top: 10px;
+	margin-left: 100px;
+	color: white;
+	background-color: green;
+	font-size: 1.5em;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(59,154,41,1) 0%, rgba(61,157,44,1) 50%, rgba(41,168,97,1) 100%);
+
+}
+
+.account {
+	text-align: center;
+	color:white;
+	margin:auto;
+	margin-top:20px;
+}
+
+.account a {
+	color: white;
+}
+
+.account a:hover {
+	color: lime;
+}
