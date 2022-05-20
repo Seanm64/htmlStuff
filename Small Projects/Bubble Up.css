@@ -1,0 +1,24 @@
+body {
+	background-color: #222;
+	color: lawngreen;
+	font-size: 10rem;
+	text-align: center;
+	text-shadow: 10px 10px 6px #1C6EA4;
+}
+
+.container {
+	position: relative;
+	top: 225px;	
+	display: flex;
+	margin-left: 500px;
+}
+
+
+/* The element to apply the animation to */
+.bubble {
+	transition: transform 0.15s ease-in;
+}
+
+.bubble:hover {
+	transform: translateY(-15px);
+}
