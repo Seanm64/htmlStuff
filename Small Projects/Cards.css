@@ -1,4 +1,28 @@
 body {
-	background-color: #555;
+	background-color: #666;
 	color: white;
+	margin: 50px;
+}
+
+.container {
+	display: flex;
+}
+
+.card {
+	height: auto;
+	width: 100px;
+	background-color: darkslategrey;
+	padding: 15px;
+	border-radius: 20px;
+	margin: 10px;
+	box-shadow: 16px 7px 22px 0px rgba(0,0,0,0.56);
+}
+
+.card div {
+	text-align: center;
+}
+
+.card i {
+	position: relative;
+	left: 17%;
 }
