@@ -166,4 +166,6 @@ background-color: white;
     box-shadow: rgba(0,0,0,.2);
     background-color: lightgray;
     gap: 25px;
+    top: 0;
+    
 }
